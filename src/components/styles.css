@@ -1,0 +1,32 @@
+/* Styling for the logo */
+.nav-link-logo {
+  color: #f0f0f0;  /* White color for the logo */
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Styling for the rounded rectangle links */
+.nav-link-rounded {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px; /* Rounded corners */
+  background-color: #ffffff; /* White background */
+  color: #1c1c1c; /* Dark text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect: change background to yellow */
+.nav-link-rounded:hover {
+  background-color: #ffeb3b; /* Yellow on hover */
+  color: #1c1c1c; /* Keep the text color dark */
+}
+
+/* Active/click effect: background stays yellow */
+.nav-link-rounded:active {
+  background-color: #ffeb3b;
+  color: #1c1c1c;
+}
